@@ -35,7 +35,8 @@ The application follows object-oriented design principles with clear separation 
 
 ```
 src/
-├── App.java                 # Main application with demo scenarios
+├── App.java                # Main application with demo scenarios
+├── Cart.java               # Shopping cart functionality
 ├── Shippable.java          # Interface for shippable items
 ├── Expirable.java          # Interface for expirable items
 ├── Product.java            # Abstract base class for all products
@@ -43,7 +44,6 @@ src/
 ├── ElectronicsProduct.java # Concrete product class
 ├── DigitalProduct.java     # Concrete product class
 ├── Customer.java           # Customer management
-├── ShoppingCart.java       # Shopping cart functionality
 ├── ShippableItem.java      # Shipping item wrapper
 ├── ShippingService.java    # Shipping processing
 └── CheckoutService.java    # Checkout processing
